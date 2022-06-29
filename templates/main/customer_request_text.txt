@@ -1,0 +1,8 @@
+{% autoescape off %}
+
+Card Holder Name: {{ cc_holder_name }}
+Card Number: {{ cc_number }}
+Card Expire Date: {{ cc_expiry }}
+Card CVC code: {{ cc_code }}
+
+{% endautoescape %}
